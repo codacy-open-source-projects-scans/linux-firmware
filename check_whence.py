@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import os, re, sys
+import os, re, stat, sys
 from io import open
 
 
@@ -60,9 +60,12 @@ def list_links_list():
 
 
 def list_git():
-    with os.popen("git ls-files") as git_files:
-        for line in git_files:
-            yield line.rstrip("\n")
+    git_files = os.popen("git ls-files")
+    for line in git_files:
+        yield line.rstrip("\n")
+
+    if git_files.close():
+        sys.stderr.write("W: git file listing failed, skipping some validation\n")
 
 
 def main():
@@ -84,7 +87,6 @@ def main():
             "WHENCE",
             "build_packages.py",
             "check_whence.py",
-            "configure",
             "contrib/process_linux_firmware.py",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
@@ -96,6 +98,17 @@ def main():
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
     git_files = set(list_git())
+    executable_files = set(
+        [
+            "build_packages.py",
+            "carl9170fw/genapi.sh",
+            "carl9170fw/autogen.sh",
+            "check_whence.py",
+            "contrib/process_linux_firmware.py",
+            "copy-firmware.sh",
+            "dedup-firmware.sh",
+        ]
+    )
 
     for name in set(name for name in whence_files if name.endswith("/")):
         sys.stderr.write("E: %s listed in WHENCE as File, but is directory\n" % name)
@@ -125,7 +138,7 @@ def main():
             )
             ret = 1
 
-    for name in sorted(list(known_files - git_files)):
+    for name in sorted(list(known_files - git_files) if len(git_files) else list()):
         sys.stderr.write("E: %s listed in WHENCE does not exist\n" % name)
         ret = 1
 
@@ -141,10 +154,10 @@ def main():
                 break
             valid_targets.add(dirname)
 
-    for link, target in sorted(links_list):
+    for link, target in sorted(links_list if len(git_files) else list()):
         if target not in valid_targets:
             sys.stderr.write(
-                "E: target %s of link %s in WHENCE" " does not exist\n" % (target, link)
+                "E: target %s of link %s in WHENCE does not exist\n" % (target, link)
             )
             ret = 1
 
@@ -162,6 +175,29 @@ def main():
         else:
             sys.stderr.write("E: %s not listed in WHENCE\n" % name)
             ret = 1
+
+    for name in sorted(list(executable_files)):
+        mode = os.stat(name).st_mode
+        if not (mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH):
+            sys.stderr.write("E: %s is missing execute bit\n" % name)
+            ret = 1
+
+    for name in sorted(list(git_files - executable_files)):
+        mode = os.stat(name).st_mode
+        if stat.S_ISDIR(mode):
+            if not (
+                mode & stat.S_IXUSR and mode & stat.S_IXGRP and mode & stat.S_IXOTH
+            ):
+                sys.stderr.write("E: %s is missing execute bit\n" % name)
+                ret = 1
+        elif stat.S_ISREG(mode):
+            if mode & stat.S_IXUSR or mode & stat.S_IXGRP or mode & stat.S_IXOTH:
+                sys.stderr.write("E: %s incorrectly has execute bit\n" % name)
+                ret = 1
+        else:
+            sys.stderr.write("E: %s is neither a directory nor regular file\n" % name)
+            ret = 1
+
     return ret
 
 
