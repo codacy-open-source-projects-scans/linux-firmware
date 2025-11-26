@@ -1355,6 +1355,10 @@ File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Version: 86.7207fc64.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
+Link: iwlwifi-sc-a0-wh-b0-101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
+Version: 98.80584591.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
@@ -4863,6 +4867,39 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 --------------------------------------------------------------------------
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN685x uart interface chips
+
+File: qca/wcnhpbtfw21.tlv
+Version: BTFW.HSP.2.1.0-00660-USB_UART_PATCHZ-6
+File: qca/wcnhpnv21.bin
+File: qca/wcnhpnv21g.bin
+File: qca/wcnhpnv21.b8c
+File: qca/wcnhpnv21.b9f
+File: qca/wcnhpnv21.ba0
+File: qca/wcnhpnv21.ba1
+File: qca/wcnhpnv21.ba2
+File: qca/wcnhpnv21.ba3
+File: qca/wcnhpnv21.ba4
+File: qca/wcnhpnv21.baa
+File: qca/wcnhpnv21.bb8
+File: qca/wcnhpnv21.b10c
+File: qca/wcnhpnv21.b111
+File: qca/wcnhpnv21g.b8c
+File: qca/wcnhpnv21g.b9f
+File: qca/wcnhpnv21g.ba0
+File: qca/wcnhpnv21g.ba1
+File: qca/wcnhpnv21g.ba2
+File: qca/wcnhpnv21g.ba3
+File: qca/wcnhpnv21g.ba4
+File: qca/wcnhpnv21g.baa
+File: qca/wcnhpnv21g.bb8
+File: qca/wcnhpnv21g.b10c
+File: qca/wcnhpnv21g.b111
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
 
 File: qca/hpbtfw21.tlv
@@ -5360,7 +5397,7 @@ File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.53.0 for Battlemage
+Version: GuC API/APB ver 70.54.0 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5369,7 +5406,7 @@ File: xe/fan_control_8086_e20b_8086_1100.bin
 Version: fan_control ver 203.0.0.0 for Battlemage
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.53.0 for Pantherlake
+Version: GuC API/APB ver 70.54.0 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
@@ -6419,11 +6456,7 @@ Version: VIDEO.VE.5.2-00023-PROD-2
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: VIDEO.VE.5.4-00059-PROD-1
-
-File: qcom/venus-5.4/venus_s2.mbn
-
-Version: VIDEO.VE.5.4-00060-PROD-1
+Version: VIDEO.VE.5.4-00062-PROD-1
 
 File: qcom/venus-6.0/venus.mbn
 
@@ -6438,7 +6471,7 @@ File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
-Version: VIDEO.VPU.1.0-00119-PROD-1
+Version: VIDEO.VPU.1.0-00119
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6638,6 +6671,11 @@ Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs6490/Thundercomm/RubikPi3/adsp.mbn
+Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adsps.jsn
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspua.jsn
 File: qcom/qcs615/adsp.mbn
 Version: ADSP.VT.5.2.c6-00059-SM6150-1
 RawFile: qcom/qcs615/adspr.jsn
