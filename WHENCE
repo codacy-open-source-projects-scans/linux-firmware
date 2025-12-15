@@ -3941,7 +3941,7 @@ File: ath11k/QCA2066/hw2.1/Notice.txt
 File: ath11k/QCA6698AQ/hw2.1/board-2.bin
 File: ath11k/QCA6698AQ/hw2.1/amss.bin
 File: ath11k/QCA6698AQ/hw2.1/m3.bin
-Version: WLAN.HSP.1.1-04650-QCAHSPSWPL_V1_V2_SILICONZ_IOE-2
+Version: WLAN.HSP.1.1-04866-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
 File: ath11k/QCA6698AQ/hw2.1/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
@@ -4226,17 +4226,19 @@ File: intel/ibt-1040-2120.sfi
 File: intel/ibt-1040-2120.ddc
 Version: BT_SolarJfp_REL151_22.180.2405.151
 
-File: intel/ibt-0093-0291.sfi
-File: intel/ibt-0093-0291.ddc
 File: intel/ibt-0093-0041.sfi
 File: intel/ibt-0093-0041.ddc
-File: intel/ibt-0291-0291.sfi
-File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazarU_S_REL93327_23.170.25375.93327
+Version: BT_BlazaruHrpGfp_S_REL191_24.00.25461.191
+
+File: intel/ibt-0291-0291.sfi
+File: intel/ibt-0291-0291.ddc
+File: intel/ibt-0093-0291.sfi
+File: intel/ibt-0093-0291.ddc
+Version: BT_BlazarU_S_REL97345_24.10.25461.97345
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4247,7 +4249,6 @@ File: intel/ibt-0180-1050.ddc
 Version: BT_Magnetar_REL103882_23.50.25205.103882
 
 File: intel/ibt-0190-0291.sfi
-File: intel/ibt-0190-0291-iml.sfi
 File: intel/ibt-0190-0291.ddc
 File: intel/ibt-0190-0041.sfi
 File: intel/ibt-0190-0041-iml.sfi
@@ -4256,11 +4257,26 @@ File: intel/ibt-0190-0041-pci.ddc
 File: intel/ibt-0190-0041-pci.sfi
 File: intel/ibt-0190-0041-usb.ddc
 File: intel/ibt-0190-0041-usb.sfi
-File: intel/ibt-0190-0291-pci.ddc
-File: intel/ibt-0190-0291-pci.sfi
+Version: BT_BlazariGfp_S_REL145_24.00.25461.145
+
+File: intel/ibt-0190-0291-iml.sfi
 File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
-Version: BT_BlazarI_S_REL100876_23.170.25375.100876
+File: intel/ibt-0190-0291-pci.ddc
+File: intel/ibt-0190-0291-pci.sfi
+Version: BT_BlazarI_S_REL104829_24.10.25461.104829
+
+File: intel/ibt-00a0-01a1-iml.sfi
+File: intel/ibt-00a0-01a1-pci.ddc
+File: intel/ibt-00a0-01a1-pci.sfi
+File: intel/ibt-00a0-01a1-usb.ddc
+File: intel/ibt-00a0-01a1-usb.sfi
+File: intel/ibt-00a0-0291-iml.sfi
+File: intel/ibt-00a0-0291-pci.ddc
+File: intel/ibt-00a0-0291-pci.sfi
+File: intel/ibt-00a0-0291-usb.ddc
+File: intel/ibt-00a0-0291-usb.sfi
+Version: BT_Scorpius_S_REL68935_24.10.25461.68935
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4390,7 +4406,7 @@ Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2025-10-27
 RawFile: amd-ucode/microcode_amd_fam1ah.bin
-Version: 2025-11-13
+Version: 2025-12-02
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -6218,9 +6234,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20251015212927a
+Version: 20251124092925a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20251015212814
+Version: 20251124092846
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6229,7 +6245,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20251015213201
+Version: 20251124093155
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6489,7 +6505,7 @@ Version: VIDEO.VPU.2.4.2-00025
 File: qcom/vpu/vpu30_p4_s7.mbn
 Link: qcom/vpu/vpu30_p4.mbn -> vpu30_p4_s7.mbn
 
-Version: VIDEO.VPU.3.1-0096
+Version: VIDEO.VPU.3.1-0095
 
 File: qcom/vpu/vpu30_p4_s6.mbn
 
@@ -6561,6 +6577,11 @@ File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 Version: v2.07
 File: qcom/sdm845/a630_zap.mbn
+File: qcom/a640_gmu.bin
+Version: v1.05
+File: qcom/sm8150/a640_zap.mbn
+Version: v0.20
+Link: qcom/a640_zap.mdt -> sm8150/a640_zap.mbn
 File: qcom/a650_gmu.bin
 Version: v2.1.8
 File: qcom/a650_sqe.fw
@@ -6582,18 +6603,46 @@ File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
 Version: v0.47
 File: qcom/qcm2290/a702_zap.mbn
+File: qcom/a730_sqe.fw
+Version: v1.81
+File: qcom/gmu_gen70000.bin
+Version: v4.00.07
+File: qcom/sm8450/a730_zap.mbn
+Version: v0.14
+File: qcom/a740_sqe.fw
+Version: v1.81
+File: qcom/gmu_gen70200.bin
+Version: v4.01.09
+File: qcom/sm8550/a740_zap.mbn
+Version: v0.11
 File: qcom/gen70500_gmu.bin
 Version: v4.03.11
 File: qcom/gen70500_sqe.fw
 Version: v1.62
 File: qcom/x1e80100/gen70500_zap.mbn
 Version: v0.15
+File: qcom/gen70900_aqe.fw
+Version: v0.23
+File: qcom/gen70900_sqe.fw
+Version: v1.81
+File: qcom/gmu_gen70900.bin
+Version: v4.02.14
+File: qcom/sm8650/gen70900_zap.mbn
+Version: v0.13
 File: qcom/gen71500_gmu.bin
 Version: v4.06.04
 File: qcom/gen71500_sqe.fw
 Version: v1.81
 File: qcom/x1p42100/gen71500_zap.mbn
 Version: v0.13
+File: qcom/gen80000_aqe.fw
+Version: v0.14
+File: qcom/gen80000_gmu.bin
+Version: v5.01.19
+File: qcom/gen80000_sqe.fw
+Version: v0.77
+File: qcom/sm8750/gen80000_zap.mbn
+Version: v0.02
 File: qcom/gen80200_aqe.fw
 Version: v0.25
 File: qcom/gen80200_gmu.bin
@@ -6732,13 +6781,6 @@ File: qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn
 Version: video-firmware.1.1-b158087140355883dc40b004032856a8feb5d565
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
 Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
-File: qcom/x1e80100/adsp.mbn
-File: qcom/x1e80100/adsp_dtb.mbn
-Version: ADSP.HT.5.9-00796-HAMOA-1
-RawFile: qcom/x1e80100/adspr.jsn
-RawFile: qcom/x1e80100/adsps.jsn
-RawFile: qcom/x1e80100/adspua.jsn
-RawFile: qcom/x1e80100/battmgr.jsn
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
 File: qcom/x1e80100/cdsp.mbn
 File: qcom/x1e80100/cdsp_dtb.mbn
@@ -6802,6 +6844,15 @@ File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
+File: qcom/qcs8300/adsp.mbn
+Version: DSP.AT.1.0.1-00163-LEMANS-1
+RawFile: qcom/qcs8300/adspr.jsn
+RawFile: qcom/qcs8300/adspua.jsn
+File: qcom/qcs8300/cdsp0.mbn
+Version: DSP.AT.1.0.1-00163-LEMANS-1
+RawFile: qcom/qcs8300/cdspr.jsn
+File: qcom/qcs8300/gpdsp0.mbn
+Version: DSP.AT.1.0.1-00163-LEMANS-1
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
@@ -6817,16 +6868,6 @@ File: qcom/sa8775p/gpdsp1.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/gpdsp1r.jsn
 RawFile: qcom/sa8775p/gpdspr.jsn
-File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
-RawFile: qcom/qcs8300/adspr.jsn
-RawFile: qcom/qcs8300/adspua.jsn
-File: qcom/qcs8300/cdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
-RawFile: qcom/qcs8300/cdspr.jsn
-File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
-
 File: qcom/sm8750/adsp.mbn
 File: qcom/sm8750/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.2.c1-00379-PAKALA-1
@@ -6838,6 +6879,13 @@ File: qcom/sm8750/cdsp.mbn
 File: qcom/sm8750/cdsp_dtb.mbn
 Version: CDSP.HT.3.1-00883-PAKALA-1
 RawFile: qcom/sm8750/cdspr.jsn
+File: qcom/x1e80100/adsp.mbn
+File: qcom/x1e80100/adsp_dtb.mbn
+Version: ADSP.HT.5.9-00828-HAMOA-1
+RawFile: qcom/x1e80100/adspr.jsn
+RawFile: qcom/x1e80100/adsps.jsn
+RawFile: qcom/x1e80100/adspua.jsn
+RawFile: qcom/x1e80100/battmgr.jsn
 
 Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
@@ -7929,6 +7977,8 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9b.wmfw -> cs35l41/v6.83.0/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9c.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9d.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9e.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9d.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9e.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-103c8d9b-spkid0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8d9b-spkid1.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9c-spkid0.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid0.bin
@@ -7937,6 +7987,10 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9d-spkid0.bin -> cs35l41-dsp1-spk-prot-
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9d-spkid1.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid1.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9e-spkid0.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8d9e-spkid1.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9d-spkid0.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9d-spkid1.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9e-spkid0.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e9e-spkid1.bin -> cs35l41-dsp1-spk-prot-103c8d9b-spkid1.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8e11.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8e12.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8e13.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
@@ -9021,11 +9075,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20250723*MTL_CLIENT_SILICON-NVR+NN-deployment*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a93a07d14a1f162226cd55ad3999f0*52e7ebee50a
+Version: 20251016*MTL_CLIENT_SILICON-release*1600*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Jul 23 2025*NPU40xx*build/ci/npu-fw-ci-main-20250721_233537-27032-2-g52e7ebee50a*52e7ebee50a93a07d14a1f162226cd55ad3999f0
+Version: Oct 16 2025*NPU40xx*ci_tag_ud202544_vpu_rc_20251016_1600*74b0ef77ba8227e491c299e8efa1d23a86c250ea
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
