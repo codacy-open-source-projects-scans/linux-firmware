@@ -4298,6 +4298,11 @@ File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
 Version: BT_Scorpius_S_REL68935_24.10.25461.68935
 
+File: intel/ibt-00a0-0041-iml.sfi
+File: intel/ibt-00a0-0041-pci.ddc
+File: intel/ibt-00a0-0041-pci.sfi
+Version: BT_Scorpius_S_REL63418_24.00.25374.63418
+
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
 File: rtl_bt/rtl8192ee_fw.bin
@@ -6254,9 +6259,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20251124092925a
+Version: 20251210092928a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20251124092846
+Version: 20251210092754
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6265,7 +6270,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20251124093155
+Version: 20251210093205
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6725,7 +6730,7 @@ RawFile: qcom/qcm6490/adsps.jsn
 RawFile: qcom/qcm6490/adspua.jsn
 RawFile: qcom/qcm6490/battmgr.jsn
 File: qcom/qcm6490/cdsp.mbn
-Version: CDSP.HT.2.5.c3-00103-KODIAK-1
+Version: CDSP.HT.2.5.c3-00130-KODIAK-1
 RawFile: qcom/qcm6490/cdspr.jsn
 File: qcom/qcm6490/ipa_fws.mbn
 Link: qcom/qcs6490/adsp.mbn -> ../qcm6490/adsp.mbn
@@ -9140,3 +9145,10 @@ Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
 File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+--------------------------------------------------------------------------
+
+Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
+
+File: rcar_gen4_pcie.bin
+
+Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
