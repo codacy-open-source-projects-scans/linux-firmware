@@ -5433,6 +5433,9 @@ Version: DMC API/APB ver 2 release 33 for Xe3LPD
 File: i915/xe3lpd_3002_dmc.bin
 Version: DMC API/APB ver 2 release 28 for Xe3LPD_3002
 
+File: i915/xe3p_lpd_dmc.bin
+Version: DMC API/APB ver 2 release 33 for Xe3p_LPD
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
@@ -6209,9 +6212,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
-Version: 20251020150843a
+Version: 20260105151012a
 File: mediatek/WIFI_RAM_CODE_MT7961_1a.bin
-Version: 20251020151401
+Version: 20260105151805
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6880,14 +6883,14 @@ File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
 File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 RawFile: qcom/qcs8300/adspr.jsn
 RawFile: qcom/qcs8300/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00163-LEMANS-1
+Version: DSP.AT.1.0.1-00170-LEMANS-1
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
