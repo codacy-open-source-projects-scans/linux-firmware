@@ -2180,6 +2180,16 @@ Licence: Redistributable. See LICENSE.airoha for details.
 
 --------------------------------------------------------------------------
 
+Driver: airoha-npu-7581-mt7996 - Airoha Network Processor Unit driver for
+				 EN7581 SoC used for MT7990 offloading
+
+File: airoha/en7581_MT7996_npu_data.bin
+File: airoha/en7581_MT7996_npu_rv32.bin
+
+Licence: Redistributable. See LICENSE.airoha for details.
+
+--------------------------------------------------------------------------
+
 Driver: airoha-npu-7583 - Airoha Network Processor Unit driver for AN7583 SoC
 
 File: airoha/an7583_npu_data.bin
@@ -2872,12 +2882,12 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 
 Driver: amdxdna - AMD Inference processor
 
-File: amdnpu/1502_00/npu.sbin.1.5.2.380
-Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.2.380
-File: amdnpu/17f0_10/npu.sbin.1.0.0.63
-Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.0.0.63
-File: amdnpu/17f0_11/npu.sbin.1.0.0.166
-Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.0.0.166
+File: amdnpu/1502_00/npu.sbin.1.5.5.391
+Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.5.391
+File: amdnpu/17f0_10/npu.sbin.1.1.2.64
+Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.1.2.64
+File: amdnpu/17f0_11/npu.sbin.1.1.2.65
+Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.1.2.65
 
 Licence: Redistributable. See LICENSE.amdnpu for details.
 
@@ -3292,9 +3302,9 @@ Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
 The cc33xx-conf.bin is a binary containing two parts: radio calibration
 and hardware configuration. The binary can be modified using the tool
-cc33conf which can be found in the CC33XX Linux SDK here: 
+cc33conf which can be found in the CC33XX Linux SDK here:
 
-https://www.ti.com/tool/CC33XX-SOFTWARE 
+https://www.ti.com/tool/CC33XX-SOFTWARE
 
 The driver expects to find the firmwares under a ti-connectivity
 subdirectory.  So if your system looks for firmwares in /lib/firmware,
@@ -3673,6 +3683,9 @@ File: rtl_nic/rtl8125d-2.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8125k-1.fw
+Version: 0.0.1
+
+File: rtl_nic/rtl8125cp-1.fw
 Version: 0.0.1
 
 File: rtl_nic/rtl9151a-1.fw
@@ -6793,10 +6806,12 @@ Link: qcom/qcs6490/battmgr.jsn -> ../qcm6490/battmgr.jsn
 Link: qcom/qcs6490/cdsp.mbn -> ../qcm6490/cdsp.mbn
 Link: qcom/qcs6490/cdspr.jsn -> ../qcm6490/cdspr.jsn
 File: qcom/qcs6490/radxa/dragon-q6a/adsp.mbn
-Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+Version: ADSP.HT.5.5.c9-00028-KODIAK-2
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
-RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn
+Version: CDSP.HT.2.5.c4-00004-KODIAK-1
+RawFile: qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn
 File: qcom/qcs6490/Thundercomm/RubikPi3/adsp.mbn
 Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
@@ -7137,7 +7152,7 @@ Driver: ice - Intel(R) Ethernet Connection E800 Series
 
 File: intel/ice/ddp/ice-1.3.43.0.pkg
 Link: intel/ice/ddp/ice.pkg -> ice-1.3.43.0.pkg
-File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
+File: intel/ice/ddp-lag/ice_lag-1.3.2.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
@@ -8566,6 +8581,9 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0-amp1.bin -> cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0-amp2.bin -> cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa2347.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp2.bin
@@ -9248,6 +9266,9 @@ License: Redistributable. See LICENCE.HP for details
 
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
+
+File: dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
 
 License: Redistributable. See LICENSE.dell for details
 

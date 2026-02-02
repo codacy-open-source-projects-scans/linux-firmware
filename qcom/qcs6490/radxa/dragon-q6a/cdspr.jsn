@@ -6,9 +6,9 @@
     },
     "sr_domain": {
         "soc": "msm",
-        "domain": "adsp",
-        "subdomain": "sensor_pd",
-        "qmi_instance_id": 74
+        "domain": "cdsp",
+        "subdomain": "root_pd",
+        "qmi_instance_id": 76
     },
     "sr_service": [
         {
