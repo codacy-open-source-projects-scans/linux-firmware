@@ -6241,6 +6241,26 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7902 - MediaTek MT7902 Wireless MACs
+
+File: mediatek/WIFI_MT7902_patch_mcu_1_1_hdr.bin
+Version: 20251212032046a
+File: mediatek/WIFI_RAM_CODE_MT7902_1.bin
+Version: 20251212032127
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7902 - MediaTek MT7902 bluetooth chipset
+
+File: mediatek/BT_RAM_CODE_MT7902_1_1_hdr.bin
+Version: 20250826211444
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: mt7920 - MediaTek MT7920 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
@@ -6568,9 +6588,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 Driver: iris - Qualcomm Iris video codec accelerator
 
-File: qcom/vpu/vpu20_p1_gen2.mbn
+File: qcom/vpu/vpu20_p1_gen2_s6.mbn
+Link: qcom/vpu/vpu20_p1_gen2.mbn -> vpu20_p1_gen2_s6.mbn
 
-Version: VIDEO.VPU.2.4.2-00025
+Version: VIDEO.VPU.3.4-0059
 
 File: qcom/vpu/vpu30_p4_s7.mbn
 Link: qcom/vpu/vpu30_p4.mbn -> vpu30_p4_s7.mbn
@@ -9283,10 +9304,6 @@ File: intel/ish/ish_ptl.bin
 Version: 5.8.1.7778
 
 License: Redistributable. See LICENSE.intel for details
-
-File: LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
-Link: intel/ish/ish_lnlm_53c4ffad_2a17559f.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_2a17559f.bin
-Version: 5.8.4.7720
 
 File: LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
 Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_53c4ffad_a672a235.bin
