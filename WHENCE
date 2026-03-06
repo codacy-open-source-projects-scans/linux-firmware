@@ -6814,7 +6814,7 @@ RawFile: qcom/qcm6490/adsps.jsn
 RawFile: qcom/qcm6490/adspua.jsn
 RawFile: qcom/qcm6490/battmgr.jsn
 File: qcom/qcm6490/cdsp.mbn
-Version: CDSP.HT.2.5.c3-00130-KODIAK-1
+Version: CDSP.HT.2.5.c3-00134-KODIAK-1
 RawFile: qcom/qcm6490/cdspr.jsn
 File: qcom/qcm6490/ipa_fws.mbn
 Link: qcom/qcs6490/adsp.mbn -> ../qcm6490/adsp.mbn
@@ -7210,6 +7210,14 @@ File: mrvl/prestera/mvsw_prestera_fw-v4.1.img
 File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+
+--------------------------------------------------------------------------
+
+Driver: lt8713sx - Lontium DP Hub
+
+File: lt8713sx_fw.bin
+
+License: Redistributable. See LICENSE.Lontium for details.
 
 --------------------------------------------------------------------------
 
