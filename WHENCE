@@ -5507,10 +5507,10 @@ File: i915/xe2lpd_dmc.bin
 Version: DMC API/APB ver 2 release 29 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
-Version: DMC API/APB ver 2 release 33 for Xe3LPD
+Version: DMC API/APB ver 2 release 34 for Xe3LPD
 
 File: i915/xe3lpd_3002_dmc.bin
-Version: DMC API/APB ver 2 release 28 for Xe3LPD_3002
+Version: DMC API/APB ver 2 release 29 for Xe3LPD_3002
 
 File: i915/xe3p_lpd_dmc.bin
 Version: DMC API/APB ver 2 release 33 for Xe3p_LPD
@@ -7000,7 +7000,7 @@ Version: CDSP.HT.3.3-00311-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
+Version: LPAIDSP.HT.1.6.1-00001-KAANAPALI-1
 RawFile: qcom/kaanapali/adspr.jsn
 RawFile: qcom/kaanapali/adsps.jsn
 RawFile: qcom/kaanapali/adspua.jsn
@@ -9440,10 +9440,8 @@ Licence: Redistributable. See LICENSE.amlogic for details
 Driver: powervr - Imagination Technologies PowerVR graphics driver
 
 File: powervr/rogue_33.15.11.3_v1.fw
-Version: 1.0.OS@6503725
-
 File: powervr/rogue_36.53.104.796_v1.fw
-Version: 1.0.OS@6852738
+Version: 1.1.OS@6976702
 
 License: Redistributable. See LICENSE.powervr for details
 
