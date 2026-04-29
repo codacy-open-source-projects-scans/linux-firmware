@@ -6644,6 +6644,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 Driver: iris - Qualcomm Iris video codec accelerator
 
+File: qcom/vpu/ar50lt_p1_gen2_s6.mbn
+
+Version: VIDEO.VPU.2.6.2-0005
+
 File: qcom/vpu/vpu20_p1_gen2_s6.mbn
 Link: qcom/vpu/vpu20_p1_gen2.mbn -> vpu20_p1_gen2_s6.mbn
 
@@ -7013,7 +7017,7 @@ RawFile: qcom/kaanapali/adspua.jsn
 RawFile: qcom/kaanapali/adspuo.jsn
 File: qcom/kaanapali/cdsp.mbn
 File: qcom/kaanapali/cdsp_dtb.mbn
-Version: CDSP.HT.3.2-00726.1-KAANAPALI-1
+Version: CDSP.HT.3.2.c1-00001-KAANAPALI-3
 RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
@@ -7076,7 +7080,7 @@ File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
-License: Redistributable. See LICENSE.dell for details
+Licence: Redistributable. See LICENSE.dell and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
